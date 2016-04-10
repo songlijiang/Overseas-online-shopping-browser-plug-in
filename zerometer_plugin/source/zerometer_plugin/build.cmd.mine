@@ -1,5 +1,0 @@
-@echo off
-
-SET KANGODIR="F:\cango\kango-framework-latest"
-
-call "%KANGODIR%\kango.py" build .\
