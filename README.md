@@ -1,5 +1,6 @@
 # Overseas-online-shopping-browser-plug-in
 Overseas online shopping browser plug-in
+海淘浏览器插件 
 此代码只用来学习，如有商业用途请与本人联系
 1.确认安装python 环境
 2.插件通过kango实现
