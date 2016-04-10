@@ -1,0 +1,21 @@
+{
+    "content_scripts": [
+		"sina_weibo_share.js","amazon_content.js","6pm_content.js","macys_content.js","gnc_content.js","ebay_content.js","vitacost_content.js",
+		"drugstore_content.js","saksfifthavenue_content.js","timberland_content.js","iherb_content.js","amazon_jp_content.js","rakuten_content.js",
+		"shoebuy_content.js","backcountry_content.js","diapers_content.js","myhabit_content.js","nordstrom_content.js",
+		"auto_address.js","my_order.js","my_message.js"
+	],
+    "description": "海淘100是国内领先的海淘购物助手软件，自动计算人民币到手价，展示海淘商品的价格曲线，自动关注热门商品并降价提醒，自动进行包裹跟踪，支持淘宝比价。是国内知名度最高，用户数量最多，用户口碑最好的海淘插件工具，帮助广大淘友简化海淘流程。",
+    "creator": "Kango",
+    "background_scripts": [
+        "jquery.js","config.js","main.js"
+    ],
+    "homepage_url": "http://www.haitao100.cn/", 
+    "version": "0.9.0",
+    "browser_button": {
+        "caption": "Kango",
+        "icon": "icons/button.png",
+        "tooltipText": "Kango"
+    },
+    "name": "haitao"
+}

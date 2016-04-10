@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+	<title>插件弹出窗口</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="popup.css" />
+	<style type="text/css">
+		@media screen and (-webkit-min-device-pixel-ratio:0){
+			/* 针对Google Chrome、Safari 3.0、Opera 9 的CSS样式 */
+			html body{width:480px;}
+		}
+	</style>
+    <script type="text/javascript" src="kango-ui/kango_api.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popup_extension.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+	<div class="popup_menu_main">
+		<ul class="popup_menu_ul">
+			<li id="haitao_coupon" iframe_src="haitao_coupon.html" class="popup_menu_li current_menu">
+				<a><i class="message_i">0</i></a>
+				<span>海淘优惠</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_app" iframe_src="haitao_app.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>海淘应用</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_web" iframe_src="haitao_web.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>海淘网站</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_favorite" iframe_src="haitao_favorite.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>关注列表</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_address" iframe_src="haitao_address.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>转运地址</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_talk" iframe_src="haitao_talk.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>联系客服</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_message" iframe_src="haitao_message.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>消息提醒</span>
+				<i class="arrow_i"></i>
+			</li>
+			<li id="haitao_setting" iframe_src="haitao_setting.html" class="popup_menu_li">
+				<a><i class="message_i">0</i></a>
+				<span>设置</span>
+				<i class="arrow_i"></i>
+			</li>
+		</ul>
+	</div>
+	<div id="popup_content">
+		<iframe id="popup_content_frame" src="haitao_coupon.html" frameborder="0"></iframe>
+	</div>
+</body>
+</html>

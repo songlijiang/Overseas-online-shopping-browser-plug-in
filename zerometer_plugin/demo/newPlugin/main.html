@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>New Web Project</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="plug.js"></script>
+	</head>
+	<body>
+		<!--- 
+			红色（横栏，固定层）：#f04943   rgb(240,73,67)
+			蓝色（购物车）：#387cbe   rgb(56,124,190) 
+			橙色（我的订单）：#fc7d5a  rgb(252,125,90) 
+			紫色（我的收藏）：#8f44ad   rgb(143,68,173)
+			粉色（优惠推荐）：#f83e9b   rgb(248,62,155)
+			绿色（个人中心）：#00997e   rgb(0,153,126)
+		-->
+		<div id = "plugin">
+			<!--  左边列表 -->
+			<ul id="left">
+				<li id="10000" style="background:#f04943 url(img/tool.png) center 7.5px no-repeat">
+					<div class="info">
+						零米海淘助手
+					</div>
+				</li>
+			</ul>
+
+			<!--  横条  -->
+			<div id="hor">
+				<ul id="horContent">
+					<li>
+						<div id="title">Dr.Martens Mens 1460 Classic Boot</div>
+					</li>
+					<li>
+						<div id="isThirdParty">自营</div>
+					</li>
+					<li>
+						<div id="haitaoRisk"><a href="http://www.lingmihaitao.com/haitaoRiskForExtension" target="_blank">查看禁运商品</a></div>
+					</li>
+					<li>
+						<div id="foreignPrice">商品单价:$<label id="foreignPriceValue">149.00</label></div>
+					</li>
+					<li>
+						<div id="rmbPrice">约:<label id="rmbPriceValue">1444</label> RMB</div>
+					</li>
+					<li>
+						<div id="currency">(当前汇率:<label id="currencyValue">6.3</label>)</div>
+					</li>
+					<li id="like" style="background:#f04943 url(img/like.png) center 8px no-repeat">
+					</li>
+				</ul>
+			</div>
+
+			<!--  右边列表   -->
+			<ul id="right">
+				<li id="10001" style="background:#387cbe url(img/cart.png) center 7.5px no-repeat">
+					<div class="info">
+						购物车
+					</div>
+				</li>
+				<li id="10002" style="background:#fc7d5a url(img/order.png) center 8px no-repeat">
+					<div class="info">
+						我的订单
+					</div>
+				</li>
+				<li id="10003" style="background:#8f44ad url(img/collect.png) center 7px no-repeat">
+					<div class="info">
+						我的收藏
+					</div>
+				</li>
+				<li id="10004" style="background:#f83e9b url(img/suggext.png) center 8px no-repeat">
+					<div class="info">
+						优惠推荐
+					</div>
+				</li>
+				<li id="10005" style="background:#00997e url(img/person.png) center 8px no-repeat">
+					<div class="info">
+						个人中心
+					</div>
+				</li>
+			</ul>
+
+			<div id="content">
+				<iframe id='contentIframe' src='haitaoAssistant.html'></iframe>
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+{
+    "content_scripts": [
+        "amazon_content.js", 
+        "6pm_content.js", 
+        "macys_content.js", 
+        "gnc_content.js", 
+        "ebay_content.js", 
+        "vitacost_content.js", 
+        "drugstore_content.js", 
+        "saksfifthavenue_content.js", 
+        "timberland_content.js", 
+        "iherb_content.js", 
+        "amazon_jp_content.js", 
+        "rakuten_content.js", 
+        "shoebuy_content.js", 
+        "backcountry_content.js", 
+        "diapers_content.js", 
+        "myhabit_content.js", 
+        "nordstrom_content.js"
+    ], 
+    "description": "\u96f6\u7c73\u6d77\u6dd8 \u2014\u2014 \u7528\u6700\u597d\u7684\u6d77\u6dd8\u5de5\u5177\uff0c\u6253\u9020\u6700\u597d\u7684\u81ea\u6d77\u6dd8\u670d\u52a1\u3002", 
+    "icons": {
+        "128": "icons/128px.png", 
+        "32": "icons/32px.png", 
+        "64": "icons/64px.png", 
+        "16": "icons/16px.png"
+    }, 
+    "creator": "\u96f6\u7c73\u6d77\u6dd8", 
+    "framework_version": "1.7.9 e39b6ff2fcc8", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://www.lingmihaitao.com/", 
+    "version": "5.0.0", 
+    "framework_package_id": "dev", 
+    "browser_button": {
+        "caption": "\u96f6\u7c73\u6d77\u6dd8", 
+        "tooltipText": "\u96f6\u7c73\u6d77\u6dd8", 
+        "icon": "icons/32px.png"
+    }, 
+    "id": "bgbagnpkffpncccopceegincbommfdko", 
+    "name": "\u96f6\u7c73\u6d77\u6dd8"
+}
